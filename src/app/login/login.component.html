@@ -1,0 +1,22 @@
+<h4 style="color: beige; padding: 10px; text-align: center;" class="mt-2">{{data}}</h4>
+<div class="ani  container" >
+    
+    <div class="body ">
+     
+        <h3 style="color: rgb(179, 17, 28);">Login</h3>
+        <form>
+            <div class="mb-3">
+              <label  style="color: white;" for="exampleInputEmail1" class="form-label">Account Number</label>
+              <input #acno type="email"  class="form-control" id="acc" [placeholder]="data2" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label style="color: white;" for="exampleInputPassword1" class="form-label">Password</label>
+              <input #psw  type="password" class="form-control" id="pass">
+            </div>
+          
+            <button (click)="login(acno,psw)" type="button"  class="btn btn-primary ">Login</button><br><br>
+            <p class="lin">Not Registered?<a href="">Create a new account</a></p> 
+          </form>
+    </div>
+  </div>
+

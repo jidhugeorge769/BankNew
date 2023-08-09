@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    margin: top 25px;;
+    /* font-size: xx-large; */
+    color: white;
+    height: 10vh;
+    background-color:  rgb(151, 6, 23);
+    position: relative;
+    justify-content: center;
+    /* text-decoration: none; */
+
+}
+a{
+    color: white;
+}
